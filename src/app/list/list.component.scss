@@ -1,0 +1,66 @@
+:host {
+  width: 100%;
+}
+
+section {
+  font-family: "Poppins", system-ui;
+  width: 100%;
+  margin: 0 auto;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1920px;
+  padding: 0px;
+  margin-bottom: 45px;
+
+  .title {
+    margin: 25px;
+    flex-direction: column;
+
+    h2 {
+      font-family: "Poppins", system-ui;
+      font-weight: 800;
+      font-style: normal;
+      font-size: 24px;
+    }
+
+    p {
+      color: #d0d4d7;
+    }
+  }
+  .action {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px;
+
+    input {
+      height: 45px;
+  
+    }
+    input::file-selector-button {
+      font-weight: bold;
+      color: #ffff;
+      padding: 0.5em;
+      cursor: pointer;
+      height: 45px;
+      border-color: #0a6dc2;
+      border-style: none;
+      border-radius: 16px;
+      background-color: #0a6dc2;
+    }
+    .search {
+      width: 145px;
+      height: 45px;
+      border-radius: 14px;
+      align-items: center;
+      text-align: center;
+      background-color: #e7ebed;
+      border-style: none;
+    }
+   
+  
+  
+  }
+}

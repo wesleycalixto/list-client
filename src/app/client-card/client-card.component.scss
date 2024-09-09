@@ -1,0 +1,45 @@
+div{
+    font-family:"Poppins", system-ui;
+    width: 100%;
+    margin: 0 auto;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    padding: 0px;
+
+    ul{
+        
+        margin: 25px;
+        
+        
+        li{
+            font-size: 25px;
+            border-bottom : 1px solid #d0d4d7;
+            border-top : 1px solid #d0d4d7;
+            width: 100%;
+            list-style: none;
+            gap: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1920px;
+            padding: 0px;
+
+            .name{
+                font-family: "Poppins", system-ui;
+                font-weight: 800;
+                font-style: normal;
+            }
+            .email{
+                font-size: 18px;
+                font-family: "Poppins", system-ui;
+                font-weight: 800;
+                font-style: normal;
+                color: #d0d4d7;
+            }
+
+        }
+    }
+}

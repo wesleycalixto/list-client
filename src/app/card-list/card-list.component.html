@@ -1,0 +1,9 @@
+<div class="cards">
+  <ul>
+    @for (data of dataList; track data.name) { <!-- Assumindo que cada item tem um identificador único -->
+      <li><span class="name">{{ data.name}}</span><span class="age">{{data.age}}</span><span class="phone">{{data.phone}}</span><span class="gender">{{data.gender}}</span></li> <!-- Acessando o primeiro valor do item, modifique conforme necessário -->
+    } 
+  </ul>
+  
+  </div>
+  
